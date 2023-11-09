@@ -1,0 +1,90 @@
+Aula 2 {
+-- Criando componente search -- 
+
+- Nessa aula vamos focar em conceitos clássicos do React. Vamos lidar com Estado
+
+Nessa aula criamos a parte de pesquisa de livros, apenas visualmente. onde criamos o componente input e estilizamos ele com styled component 
+
+
+}
+
+Aula 4 {
+- Agora vamos tornar a pesquisa, do input de pesquisa, funcional.
+
+vamos utilizar o onblur, ele é uma função que é chamada sempre que o individuo sai do input ou do componente utilizado.
+
+assim podemos usar um componente do próprio react chamado UseState - 
+Estado de componente são as variáveis mutáveis desses componentes, que fazem parte da montagem da página. Vamos ver isso na prática! Em "Pesquisa > index.js", importaremos useState, do react:
+
+
+dentro da função 'Sarch()', antes do return(), vamos criar uma constante com os parâmetros 'textoDigitado e setTextoDigitado' entre colchetes - [] -. Vamos igualar isso a useState, com o parâmetro como o valor inicial do estado . no nosso caso, será uma string vazia: 
+
+
+// ...
+
+function Pesquisa() {
+    const [ textoDigitado, setTextoDigitado ] = useState('')
+
+    return (
+        <PesquisaContainer>
+            <Titulo>Já sabe por onde começar?</Titulo>
+            <Subtitulo>Encontre seu livro em nossa estante.</Subtitulo>
+            <Input
+                placeholder="Escreva sua próxima leitura"
+                onBlur={evento => console.log(evento.target.value)}
+            />
+        </PesquisaContainer>
+    )
+}
+
+export default Pesquisa
+
+-----
+
+no lugar do console substituiremos por = onBlur={evento => setTextoDigitado(evento.target.value)}.
+E abaixo do input vamos colocar uma tag <p> para ver o resultado de quando executarmos o evento onBlur
+
+<p>{textoDigitado}</p>
+
+ficará assim : 
+
+// ...
+
+function Pesquisa() {
+    const [ textoDigitado, setTextoDigitado ] = useState('')
+
+    return (
+        <PesquisaContainer>
+            <Titulo>Já sabe por onde começar?</Titulo>
+            <Subtitulo>Encontre seu livro em nossa estante.</Subtitulo>
+            <Input
+                placeholder="Escreva sua próxima leitura"
+                onBlur={evento => setTextoDigitado(evento.target.value)}
+            />
+            <p>{textoDigitado}</p>
+        </PesquisaContainer>
+    )
+}
+
+export default Pesquisa
+
+
+
+}
+
+
+Aula  5 {
+Nessa aula criamos um 'banco de dados'
+contendo os livros para pesquisarmos, na tela de pesquisa nos 
+}
+
+Aula 6 {
+Nessa aula nós vamos manipular o resutado pesquisados que ja temos no console, e iremos mostrar eles na tela 
+
+Como criar um estado de componente React para armazenar mutáveis da aplicação que são usados pelos elementos.
+Como modificar um estado React usando onBlur para que consigamos mudar o estado sempre que houver modificações no nosso input.
+Como modificar componentes a partir do estado para que tenhamos componentes dinâmicos na Alura Books.
+}
+
+
+

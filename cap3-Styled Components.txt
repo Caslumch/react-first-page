@@ -1,0 +1,24 @@
+VIDE 5 CAP 3 - 
+
+Vamos continuar usando Styled Component, agora para substituir os arquivos "estilo.css" remanescentes.
+
+Daremos início a partir de "componentes > IconesHeader > index.js". Vamos começar importando o Styled Component com import styled from 'styled-components'.
+
+
+img de ex: C:\Users\Lucas Machado\Desktop\Desktop\curso_react_alura\alura_books_cap2\utilizacao-styled-components.PNG
+
+
+além do mais podemos utilizar 
+
+VIDEO 6 CAP 3 - {
+
+para finalizar a parte do styled component, Nessa aula vamos ver sobre o global style, toda aplicação tem estilos specifics que são padronizados para toda aplicação, como fonte, padings e etc. 
+aqui a gente tirou o index.css por padrão, para utilizar diretamente no index.js PRINCIPAL.
+
+assim reduzindo os componentes e tornando mais enxuto a estrutura. 
+
+}
+
+
+
+
