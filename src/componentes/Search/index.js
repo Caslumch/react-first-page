@@ -13,7 +13,7 @@ height: 100%;
 width : 100%;
 position: relative;
 
-`
+` 
 
 const Title = styled.h2`
 color: #FFF;
