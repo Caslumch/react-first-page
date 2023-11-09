@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/react-first-page/static/js/main.d0df14be.js",
+    "static/js/787.71001599.chunk.js": "/react-first-page/static/js/787.71001599.chunk.js",
+    "static/media/livro.png": "/react-first-page/static/media/livro.08cebf2371097b2d91cd.png",
+    "static/media/sacola.svg": "/react-first-page/static/media/sacola.a1f2af1cb32c08ae75c7b23485161cbe.svg",
+    "static/media/perfil.svg": "/react-first-page/static/media/perfil.d459471fbeda60d7f2a433b0f6b660de.svg",
+    "index.html": "/react-first-page/index.html",
+    "static/media/logo.svg": "/react-first-page/static/media/logo.9c54b187c810fdc3ecca29269446898f.svg",
+    "main.d0df14be.js.map": "/react-first-page/static/js/main.d0df14be.js.map",
+    "787.71001599.chunk.js.map": "/react-first-page/static/js/787.71001599.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d0df14be.js"
+  ]
+}
